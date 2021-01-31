@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <style>
+            {
+                box-sizing: border-box;
+            }
+            /* Set additional styling options for the columns*/
+            .column {
+            float: left;
+            width: 50%;
+            }
+        
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+        </style>
+        <meta charset="utf-8"/>
+        <script src="main.js"></script>
+    </head>
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <span>1.</span>
+            <input type="text" id="para1_imput_box1" placeholder="Input box 1">
+            <br> <br>
+            <span>2.</span>
+            <input type="text" id="para1_imput_box2" placeholder="Input box 1">
+            <br> <br>
+            <span>3.</span>
+            <input type="text" id="para1_imput_box3" placeholder="Input box 1">
+            <br> <br>
+            <span>4.</span>
+            <input type="text" id="para1_imput_box4" placeholder="Input box 1">
+            <br> <br>
+            <span>5.</span>
+            <input type="text" id="para1_imput_box5" placeholder="Input box 1">
+            <br> <br>
+            <span>6.</span>
+            <input type="text" id="para1_imput_box6" placeholder="Input box 1">
+            <br> 
+            <br>
+            
+            <button onclick="get_Paragraph1()">Get Paragraph 1</button>
+            
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <span>1.</span>
+            <input type="text" id="para2_imput_box1" placeholder="Input box 1">
+            <br> <br>
+            <span>2.</span>
+            <input type="text" id="para2_imput_box2" placeholder="Input box 2">
+            <br> <br>
+            <span>3.</span>
+            <input type="text" id="para2_imput_box3" placeholder="Input box 3">
+            <br> <br>
+            <span>4.</span>
+            <input type="text" id="para2_imput_box4" placeholder="Input box 4">
+            <br> <br>
+            <span>5.</span>
+            <input type="text" id="para2_imput_box5" placeholder="Input box 5">
+            <br> <br>
+            <span>6.</span>
+            <input type="text" id="para2_imput_box6" placeholder="Input box 6">
+            <br> <br>
+            
+            <button onclick="get_Paragraph2()">Get Paragraph 2</button>
+            
+        </div>
+    </div>  
+    
+    <br>
+    <br>
+    <div id="show_Paragraph1"></div>
+    
+    
+    <br>
+    <div id="show_Paragraph2"></div>
+    
+</html>
